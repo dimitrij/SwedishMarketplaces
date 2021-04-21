@@ -7,7 +7,7 @@ container.setAttribute('class', 'container');
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://dimitrij.github.io/SwedishMarketplaces/SwedishMarketplace.json', true);
+request.open('GET', 'https://dimitrij.github.io/SwedishMarketplaces/SwedishMarketplaces.json', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
