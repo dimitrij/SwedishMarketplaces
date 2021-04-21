@@ -13,21 +13,21 @@ request.onload = function () {
   // Begin accessing JSON data here
   var data = JSON.parse(this.response);
   if (request.status >= 200 && request.status < 400) {
-    
+    console.log('Hej');
     data.forEach(persons => {
-      const person = document.createElement('div');
-      person.setAttribute('class', 'person');
+      const ad = document.createElement('div');
+      ad.setAttribute('class', 'ads');
 
       const h1 = document.createElement('h1');
-      h1.textContent = persons.title;
-
+      h1.textContent = ad.title;
+    
       const p = document.createElement('p');
-      persons.description = persons.description.substring(0, 300);
-      p.textContent = `${persons.description}...`;
+      ad.description = ad.description.substring(0, 300);
+      p.textContent = `${ad.description}...`;
 
-      container.appendChild(person);
-      person.appendChild(h1);
-      person.appendChild(p);
+      container.appendChild(ad);
+      ad.appendChild(h1);
+      ad.appendChild(p);
     });
   } 
   // If there no such file or bad request. 
