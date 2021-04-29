@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+ 
+ .container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 4.0fr 1fr 1.2fr 0.2fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "sidebar sidebar sidebar"
+    "content1 content2 content3"
+    "footer footer footer";
+ }
+
+ nav{
+    background-color:white;
+     grid-area: nav;
+ }
+ main{
+     background-image: url("main.jpeg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     grid-area: main;
+ }
+ .sidebar{
+     background-color:papayawhip;
+     grid-area: sidebar;
+ }
+ .content1{
+     background-color: plum;
+     grid-area: content1;
+ }
+ .content2{
+     background-color: powderblue;
+    grid-area: content2;
+}
+.content3{
+    background-color: rosybrown;
+    grid-area: content3;
+}
+.footer{
+    background-color: slategray;
+    grid-area: footer;
+}
+
+.logo{
+    width: 130px;
+    height: 50px; 
+}
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab{
+    margin: 0rem 14rem;
+    padding-top: 1rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.dropdown{
+    margin-left: 2rem;
+}
+.dropbtn{
+    border: none;
+    background-color: white;
+    font-size: 17px;
+}*/
+.button{
+    background-color: green;
+    border: 0.1px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    
+}
+div.item i{
+    width: 10px;
+    height: 30px;
+}
+.caption {
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: rgb(77, 74, 74);
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  /*-------------end of header-------------------*/
+  
+  .search-form{
+    width: 380px;
+    padding: 2% 0 0;
+    margin: 0rem 14rem;
+  }
+  .form{
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    
+  }
+  .form input{
+    outline: 1;
+    background: white;
+    width: 100%;
+    border: 0.3px solid black;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button{
+    font-weight: 600;
+    outline: 0;
+    background: rgb(104, 104, 190);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  } 
+  .form .register-form{
+    display: none;
+  }
+  .form h2, h4{
+    margin-bottom: 10px;
+  }
