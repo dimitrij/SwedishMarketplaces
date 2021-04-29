@@ -1,18 +1,40 @@
 const app = document.getElementById("ads");
 
-const container = document.createElement("div");
+const clothesConfiguration = {
+  endpoint: "./tradera.json",
+  dataType: "clothes",
+};
 
-container.classList.add("container");
+const vehiclesConfiguration = {
+  endpoint: "./tradera.json",
+  dataType: "vehicles",
+};
 
-app.appendChild(container);
+const electronicsConfiguration = {
+  endpoint: "./tradera.json",
+  dataType: "electronics",
+};
 
-async function fetchData() {
+const gamesConfiguration = {
+  endpoint: "./tradera.json",
+  dataType: "games",
+};
+
+async function fetchData(configuration) {
+  const { endpoint, dataType } = configuration;
+
+  const container = document.createElement("div");
+  container.classList.add(`container-${dataType}`);
+  app.appendChild(container);
+
   try {
-    const response = await fetch("./tradera.json");
+    const response = await fetch(endpoint);
     const data = await response.json();
-    console.log(data.clothes);
+
+    console.log("data", data);
+
     if (response.ok) {
-      data.clothes.forEach((item) => {
+      data[dataType].forEach((item) => {
         console.log("item", item);
         const ad = document.createElement("div");
         ad.classList.add("ads");
@@ -46,4 +68,7 @@ async function fetchData() {
   }
 }
 
-fetchData();
+fetchData(clothesConfiguration);
+fetchData(vehiclesConfiguration);
+fetchData(electronicsConfiguration);
+fetchData(gamesConfiguration);
