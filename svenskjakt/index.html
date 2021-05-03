@@ -97,7 +97,76 @@
             </section>
         </div>
         <!-- SEARCH BUTTON -->
-        
+        <form id="advert-search-form" action="/annonstorget/" method="GET" style="display: none;">
+            <label for="advert-search-text">Du kan även söka efter annonser här:</label>
+            <input type="text" name="advert-search-text" id="advert-search-text" placeholder="Fritext">
+            <select class="select" name="region" id="region">
+                <option value="all">Alla län</option>
+                <option value="52">Blekinge</option>
+                <option value="53">Dalarna</option>
+                <option value="54">Gotland</option>
+                <option value="55">Gävleborg</option>
+                <option value="57">Halland</option>
+                <option value="61">Jämtland</option>
+                <option value="58">Jönköping</option>
+                <option value="59">Kalmar</option>
+                <option value="60">Kronoberg</option>
+                <option value="62">Norrbotten</option>
+                <option value="63">Skåne</option>
+                <option value="64">Stockholm</option>
+                <option value="65">Södermanland</option>
+                <option value="66">Uppsala</option>
+                <option value="67">Värmland</option>
+                <option value="68">Västerbotten</option>
+                <option value="90">Västernorrland</option>
+                <option value="69">Västmanland</option>
+                <option value="56">Västra Götaland</option>
+                <option value="70">Örebro</option>
+                <option value="71">Östergötland</option>
+                <option value="999999">Övrigt</option>		
+            </select>
+            <select class="select" name="advert-search-category" id="advert-search-category">
+            <option value="-1">Alla kategorier</option>
+                <option value="467">Avelstjänst</option>
+                <option value="468">Från länsorganisationen</option>
+                <option value="469">Hundar köpes</option>
+                <option value="470">Hundar säljes: Basset och Beagle</option>
+                <option value="471">Hundar säljes: Blandraser</option>
+                <option value="472">Hundar säljes: Drever</option>
+                <option value="473">Hundar säljes: Övriga raser</option>
+                <option value="474">Hundar säljes: Skällande fågelhundar</option>
+                <option value="475">Hundar säljes: Spaniel och Retriever</option>
+                <option value="476">Hundar säljes: Stående fågelhundar</option>
+                <option value="477">Hundar säljes: Ställande hundar</option>
+                <option value="478">Hundar säljes: Stövare</option>
+                <option value="479">Hundar säljes: Tax</option>
+                <option value="480">Hundar säljes: Terrier</option>
+                <option value="481">Hundar säljes: Wachtelhund</option>
+                <option value="482">Hundklubbar</option>
+                <option value="483">Jakt bytes</option>
+                <option value="484">Jakt erbjudes</option>
+                <option value="485">Jakt önskas</option>
+                <option value="486">Jaktfordon</option>
+                <option value="487">Jaktskytteklubbar</option>
+                <option value="488">Jaktstigar</option>
+                <option value="489">Jobb sökes</option>
+                <option value="490">Kurser</option>
+                <option value="491">Lediga jobb</option>
+                <option value="492">Övrigt</option>
+                <option value="493">Seminarier, Mässor</option>
+                <option value="549">tillbehör säljes</option>
+                <option value="494">Uthyres</option>
+                <option value="495">Utställningar och Prov</option>
+                <option value="548">Vapen</option>
+                <option value="496">Vapen köpes</option>
+                <option value="497">Vapen säljes</option>
+                <option value="498">Vapen, tillbehör köpes</option>
+                <option value="499">Vapen, tillbehör säljes</option>
+                <option value="500">Vilt, Fågel mm</option>
+                <option value="501">Viltvård</option>		
+            </select>
+            <input type="submit" value="Sök">
+        </form>
         
         
         
