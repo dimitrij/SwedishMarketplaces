@@ -1,20 +1,29 @@
 .topnav {
-    background-color: rgb(255, 250, 250);
-    overflow: hidden;
+    width: 1429px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(https://www.retropetrol.se/assets/img/logo/navbar_stripes_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .topnav a {
-    float: left;
     color: #4caed2;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+    padding: 5rem 1rem;
+    padding-bottom: none;
+    margin-left: 60px;
+    margin-left: 10px;
 }
 
 .topnav a:hover {
-    background-color: rgb(189, 76, 76);
     color: rgb(147, 29, 29);
+}
+
+#logga {
+    float: right;
 }
 
 .huvud {
@@ -31,16 +40,38 @@
     width: 618px;
     height: 360px;
     padding: 60px;
+    font-size: larger;
 }
 
-.bilmärke>h2 {
-    width: 1080px;
-    height: 48px;
-    padding: 80px;
+.bilmärke>p {
+    padding: 60px;
+    font-size: larger;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     background-image: url(https://www.retropetrol.se/assets/img/backgrounds/bg_corv_2_1920.jpg);
-    width: 1040px;
-    height: 1000px;
+    background-size: cover;
+    width: 1357px;
+    height: 514px;
+}
+
+.card {
+    background-color: #eee;
+    width: 730px;
+    height: 177px;
+    border: 2px solid #ccc;
+    margin: auto;
+    float: none;
+    display: block;
+}
+
+.bild img {
+    width: 243px;
+    height: 146px;
+    float: left;
+    padding: auto;
+    padding-left: 15px;
 }

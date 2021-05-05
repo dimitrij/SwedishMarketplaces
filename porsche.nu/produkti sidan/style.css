@@ -1,0 +1,116 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.topnav {
+    width: 1429px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(https://www.retropetrol.se/assets/img/logo/navbar_stripes_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.topnav a {
+    color: #4caed2;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5rem 1rem;
+    padding-bottom: none;
+    margin-left: 60px;
+    margin-left: 10px;
+}
+
+.topnav a:hover {
+    color: rgb(147, 29, 29);
+}
+
+#logga {
+    float: right;
+}
+
+.topnav {
+    width: 1429px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(https://www.retropetrol.se/assets/img/logo/navbar_stripes_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.topnav a {
+    color: #4caed2;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5rem 1rem;
+    padding-bottom: none;
+    margin-left: 60px;
+    margin-left: 10px;
+}
+
+.topnav a:hover {
+    color: rgb(147, 29, 29);
+}
+
+#logga {
+    float: right;
+}
+
+.topnav {
+    .headre img {}
+    width: 1429px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(https://www.retropetrol.se/assets/img/logo/navbar_stripes_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.topnav a {
+    color: #4caed2;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5rem 1rem;
+    padding-bottom: none;
+    margin-left: 60px;
+    margin-left: 10px;
+}
+
+.topnav a:hover {
+    color: rgb(147, 29, 29);
+}
+
+#logga {
+    float: right;
+}
+
+.spercifikatrion {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #eaeff4;
+    padding: 10px;
+}
+
+.button {
+    padding: 25px;
+    background-color: #4caed2;
+    color: #eaeff4;
+    font-size: larger;
+    margin-top: 30px;
+}
+
+.omBil {
+    padding: 100px;
+    font-size: x-large;
+}
+
+.bilder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
