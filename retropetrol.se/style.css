@@ -4,3 +4,10 @@ h1 {
 p {
     color: red;
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    border: 5px outset rgb(205, 213, 226);
+    background-color: rgb(135, 198, 219);
+    text-align: center;
+}
