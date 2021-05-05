@@ -1,40 +1,40 @@
 const app = document.getElementById("ads");
 
 const clothesConfiguration = {
-  endpoint: "./tradera.json",
-  dataType: "clothes",
+  endpoint11: "./morteza.json",
+  dataType11: "clothes",
 };
 
 const vehiclesConfiguration = {
-  endpoint: "./tradera.json",
-  dataType: "vehicles",
+  endpoint11: "./tradera.json",
+  dataType11: "vehicles",
 };
 
 const electronicsConfiguration = {
-  endpoint: "./tradera.json",
-  dataType: "electronics",
+  endpoint11: "./tradera.json",
+  dataType11: "electronics",
 };
 
 const gamesConfiguration = {
-  endpoint: "./tradera.json",
-  dataType: "games",
+  endpoint11: "./tradera.json",
+  dataType11: "games",
 };
 
 async function fetchData(configuration) {
-  const { endpoint, dataType } = configuration;
+  const { endpoint11, dataType11 } = configuration;
 
   const container = document.createElement("div");
-  container.classList.add(`container-${dataType}`);
+  container.classList.add(`container-${dataType11}`);
   app.appendChild(container);
 
   try {
-    const response = await fetch(endpoint);
+    const response = await fetch(endpoint11);
     const data = await response.json();
 
     console.log("data", data);
 
     if (response.ok) {
-      data[dataType].forEach((item) => {
+      data[dataType11].forEach((item) => {
         console.log("item", item);
         const ad = document.createElement("div");
         ad.classList.add("ads");

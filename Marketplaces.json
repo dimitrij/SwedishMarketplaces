@@ -1,0 +1,46 @@
+[
+    {
+      
+        "id": "01",
+      "title": "Saab sommar däck på aluminium fälgar",
+      "description": "Beskrivning. Hej har 4 st  original fälgar 17 tum som passar Saab 9-5 däcken är slut  två av fälgarna har lite kantstött pris 500 Fyra st vinterdäck på plåtfälgar 16r R16 suttit också på Saab pris 500 kr Paket pris för båda två 800",
+      "pris": "500",
+      "bild": "saab-wheels-18x75.jpg"
+    },  
+    {
+        "id": "02",
+        "title": "Niesmann Flair 8000 CEBW",
+        "description": "Beskrivning. Hej har 4 st  original fälgar 17 tum som passar Saab 9-5 däcken är slut  två av fälgarna har lite kantstött pris 500 Fyra st vinterdäck på plåtfälgar 16r R16 suttit också på Saab pris 500 kr Paket pris för båda två 800",
+        "pris": "450 000",
+        "bild": "saab-wheels-18x75.jpg  "
+      }, 
+      {
+        "id": "03",
+        "title": "Land Rover Range Rover SDV8 Nyservad | 340 hk | Byte",
+        "description": "Modell 2015 Land Rover Range Rover 4,4 SDV8 Vogue i helrätta färgkombinationen Santorinisvart metallic med svart läderklädsel! Bilen importerades till Sverige under hösten 2017 på 4775 mil. Vänligen hör av dig med ditt intresse för denna fantastiska bil, endast bokade visningar pga pandemi - säljes för kunds räkning - förmånlig finansiering kan ordnas och ev byte diskuteras!",
+        "pris": "519 000",
+        "bild": "saab-wheels-18x75.jpg"
+      }, 
+      {
+        "id": "04",
+        "title": "Saab sommar däck på aluminium fälgar",
+        "description": "Beskrivning. Hej har 4 st  original fälgar 17 tum som passar Saab 9-5 däcken är slut  två av fälgarna har lite kantstött pris 500 Fyra st vinterdäck på plåtfälgar 16r R16 suttit också på Saab pris 500 kr Paket pris för båda två 800",
+        "pris": "500",
+        "bild": "saab-wheels-18x75.jpg"
+      }, 
+      {
+        "id": "05",
+        "title": "Vit skänk",
+        "description": "Beskrivning. Hej har 4 st  original fälgar 17 tum som passar Saab 9-5 däcken är slut  två av fälgarna har lite kantstött pris 500 Fyra st vinterdäck på plåtfälgar 16r R16 suttit också på Saab pris 500 kr Paket pris för båda två 800",
+        "pris": "1 500",
+        "bild": "saab-wheels-18x75.jpg"
+      },
+      {
+        "id": "05",
+        "title": "Vit skänk",
+        "description": "Beskrivning. Hej har 4 st  original fälgar 17 tum som passar Saab 9-5 däcken är slut  två av fälgarna har lite kantstött pris 500 Fyra st vinterdäck på plåtfälgar 16r R16 suttit också på Saab pris 500 kr Paket pris för båda två 800",
+        "pris": "1 500",
+        "bild": "saab-wheels-18x75.jpg"
+      }
+
+  ]
