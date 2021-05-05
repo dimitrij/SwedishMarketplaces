@@ -23,7 +23,6 @@
  main{
     background-color:white;
     grid-area: main;
-    border: 1px solid blue;
     margin: 4rem 14rem;
     
  }
@@ -114,4 +113,14 @@ div.item i{
 
 .product-container{
     display: block;
+}
+.product-description{
+    font-size: 24px;
+    margin-top: 20px; 
+}
+.product-description h3{
+    margin-top: 3rem;
+}
+.details{
+    margin-top: 2rem;
 }
