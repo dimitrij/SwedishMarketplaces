@@ -10,40 +10,8 @@ html {
   font-family: Roboto, sans-serif;
 }
 
-.menu-center {
-  width: 80%;
-  margin: auto;
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.logo img {
-  width: 150px;
-}
-
-.banner {
+body {
   width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
-.hamburger-icon {
-  width: 50px;
-}
-
-.kategorier,
-.search form {
-  display: flex;
-  align-items: center;
-}
-
-.menu-center .right ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-#ads {
-  width: 80%;
+  margin: auto;
+  background-color: pink;
 }
