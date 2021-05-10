@@ -12,7 +12,7 @@ fetch(queryURL)
 });*/
 
 
-fetch('product.json')
+fetch('https://dimitrij.github.io/SwedishMarketplaces/blocket.se/product.json')
   .then(function (response) {
     return response.json();
   })
