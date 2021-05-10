@@ -17,20 +17,27 @@ fetch('https://dimitrij.github.io/SwedishMarketplaces/blocket.se/product.json')
     return response.json();
   })
   .then(function (data) {
-    appendData(data);
+  let params = new URLSearchParams(location.search);
+  let id = params.get('id') // # => "n1"
+    appendData(data, id);
   })
   .catch(function (err) {
     console.log(err);
   });
 
 
-  function appendData(data) {
+  function appendData(data, id) {
     var mainContainer = document.getElementById("myData");
     for (var i = 0; i < data.length; i++) {
-      console.log(data);
-        var div = document.createElement("div");
-        div.innerHTML = 'title: ' + data[i].description + ' ' + data[i].price;
-        console.log(data[i].description);
-        mainContainer.appendChild(div);
+      console.log(data[i].id);
+      console.log(id);
+        if (data[i].id == id) {
+        
+            console.log(data);
+            var div = document.createElement("div");
+            div.innerHTML = 'title: ' + data[i].description + ' ' + data[i].price;
+            console.log(data[i].description);
+            mainContainer.appendChild(div);
+        }
     }
 }
