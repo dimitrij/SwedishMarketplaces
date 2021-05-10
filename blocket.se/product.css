@@ -12,8 +12,8 @@
     grid-template-rows: 0.3fr 5fr 2fr;
     grid-template-areas: 
     "nav nav nav"
-    "main main main"
-    "content1 content1 content1";
+    "main main content2"
+    "content1 content1 content2";
  }
 
  nav{
@@ -23,15 +23,22 @@
  main{
     background-color:white;
     grid-area: main;
-    margin: 4rem 14rem;
+    margin-top: 4rem;
+    margin-left: 14rem;
+    margin-right: 0rem;
     
  }
  
 .content1{
     background-color:rgb(167, 60, 7);
     grid-area: content1;
-    
 }
+
+.content2{
+    background-color: white;
+    border: 1px solid black;
+    grid-area: content2;
+ }
 
 .logo{
     width: 130px;
@@ -123,4 +130,12 @@ div.item i{
 }
 .details{
     margin-top: 2rem;
+}
+.gallery{
+    margin-top: 3rem;
+    margin-left: 0rem;
+    margin-right: 14rem;
+    height: 100vh;
+    border: 1px transparent;
+    background-color: rgb(249, 247, 246);
 }

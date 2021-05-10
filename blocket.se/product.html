@@ -52,13 +52,19 @@
                 <img src="product.jpg" alt="" width="600px">
             </div>
         </div>
-        <div class="product-description">
+            <div class="product-description">
             <h2>IPhone PRO Max</h2>
             <h3>12 000 kr</h3>
             <hr><br>
-            <h5>Beskrivning</h5><br>
-            <p>Helt ny  iPhone12 PRO Max i oöppnad kartong
-                256gb. Med kvitto. Kan skickas med spårbar frakt. Eller lämnas i Kävlinge/Arlöv eller Malmö dagligen.</p><br><hr>
+            <div id="myData"></div>
+            <div id="hej"></div>
+            <script>
+                // running on https://www.example.com?id=3
+                let params = new URLSearchParams(location.search);
+                params.get('id') // # => "n1"
+                document.getElementById("hej").innerHTML = params.get('id');
+            </script>        
+
             <div class="details">
                 <h5>Säljes av</h5>
                 <span>namn</span>
@@ -66,6 +72,7 @@
 
         </div>
     </main>
+    <div class="gallery"><h4>Galleriet</h4></div>
     
 </div>    
         
