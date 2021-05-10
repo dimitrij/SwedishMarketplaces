@@ -30,6 +30,7 @@ fetch('https://dimitrij.github.io/SwedishMarketplaces/blocket.se/product.json')
       console.log(data);
         var div = document.createElement("div");
         div.innerHTML = 'title: ' + data[i].description + ' ' + data[i].price;
+        console.log(data[i].description);
         mainContainer.appendChild(div);
     }
 }
