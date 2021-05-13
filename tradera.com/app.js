@@ -1,41 +1,33 @@
 const app = document.getElementById("ads");
 
-const clothesConfiguration = {
-  endpoint11: "./morteza.json",
-  dataType11: "clothes",
-};
-
-const vehiclesConfiguration = {
-  endpoint11: "./tradera.json",
-  dataType11: "vehicles",
-};
-
-const electronicsConfiguration = {
-  endpoint11: "./tradera.json",
-  dataType11: "electronics",
-};
-
-const gamesConfiguration = {
-  endpoint11: "./tradera.json",
-  dataType11: "games",
+const jsonConfiguration = {
+  endpoint: "./tradera.json",
 };
 
 async function fetchData(configuration) {
-  const { endpoint11, dataType11 } = configuration;
+  const { endpoint } = configuration;
 
   const container = document.createElement("div");
-  container.classList.add(`container-${dataType11}`);
+  container.classList.add(`container`);
   app.appendChild(container);
 
   try {
-    const response = await fetch(endpoint11);
+    const response = await fetch(endpoint);
     const data = await response.json();
 
     console.log("data", data);
 
+    const sortedData = data.sort((a, b) => {
+      if (a.title < b.title) {
+        return -1;
+      } else if (a.title > b.title) {
+        return 1;
+      }
+      return 0;
+    });
+
     if (response.ok) {
-      data[dataType11].forEach((item) => {
-        console.log("item", item);
+      sortedData.forEach((item) => {
         const ad = document.createElement("div");
         ad.classList.add("ads");
 
@@ -68,7 +60,4 @@ async function fetchData(configuration) {
   }
 }
 
-fetchData(clothesConfiguration);
-fetchData(vehiclesConfiguration);
-fetchData(electronicsConfiguration);
-fetchData(gamesConfiguration);
+fetchData(jsonConfiguration);
