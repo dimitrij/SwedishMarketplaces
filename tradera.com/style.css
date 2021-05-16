@@ -130,14 +130,17 @@ input {
 }
 
 #categories__links {
+  max-width: 15rem;
+  position: absolute;
+  width: inherit;
   display: none;
-  width: 100%;
   margin-top: 10px;
   background-color: whitesmoke;
 }
 
 #categories__links a {
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   justify-content: left;
   align-items: center;
   line-height: 3rem;
