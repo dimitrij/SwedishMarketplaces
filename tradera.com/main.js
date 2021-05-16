@@ -17,3 +17,18 @@ function nextImage() {
   // slideshowImages[currentImageCounter].style.display = "block";
   slideshowImages[currentImageCounter].style.opacity = 1;
 }
+
+/* Hamburger navbar */
+
+const categoryButton = document.querySelector(".nav__mobile");
+
+categoryButton.addEventListener("click", myFunction);
+
+function myFunction() {
+  var x = document.getElementById("categories__links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

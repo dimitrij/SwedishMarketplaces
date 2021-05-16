@@ -17,7 +17,7 @@
     <!-- NAVIGATION BAR -->
     <nav id="nav__wrapper">
       <div class="nav__main">
-        <section class="nav__ham">
+        <section class="nav__mobile">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -36,6 +36,7 @@
           </svg>
           <p>Kategorier</p>
         </section>
+
         <section class="nav__right">
           <ul class="nav__right__menu">
             <li>
@@ -106,6 +107,42 @@
           </ul>
         </section>
       </div>
+      <!-- Mobile Nav Menu -->
+      <section id="categories__links">
+        <a href=""
+          ><img src="./resource/books.svg" alt="" width="20px" height="20px" />
+          <p>Böcker</p></a
+        >
+        <a href=""
+          ><img src="./resource/laptop.svg" alt="" width="20px" height="20px" />
+          <p>Datorer</p></a
+        >
+        <a href=""
+          ><img src="./resource/sofa.svg" alt="" width="20px" height="20px" />
+          <p>Möbler</p></a
+        >
+        <a href=""
+          ><img src="./resource/shirt.svg" alt="" width="20px" height="20px" />
+          <p>Kläder</p></a
+        >
+        <a href=""
+          ><img src="./resource/draw.svg" alt="" width="20px" height="20px" />
+          <p>Konst</p></a
+        >
+        <a href=""
+          ><img
+            src="./resource/cosmetic.svg"
+            alt=""
+            width="20px"
+            height="20px"
+          />
+          <p>Skönhetsvård</p></a
+        >
+        <a href=""
+          ><img src="./resource/tennis.svg" alt="" width="20px" height="20px" />
+          <p>Sport</p></a
+        >
+      </section>
     </nav>
     <!-- HERO SECTION -->
     <div class="intro-slideshow">
@@ -124,33 +161,36 @@
       <img
         src="https://res.cloudinary.com/cubbans-cloud/image/upload/v1621093601/tradera-may/slider_5_nbmntp.jpg"
       />
-    </div>
-    <!-- Categories -->
-    <section id="categories">
-      <div class="categories__wrapper">
-        <div class="logo__wrapper">TRADERA</div>
-        <div class="search__wrapper">
-          <fieldset class="search__item">
-            <input type="search" placeholder="sök" />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              width="20px"
-              height="20px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </fieldset>
+      <!-- HERO MIDDLE SEARCH -->
+      <section id="hero__section">
+        <div class="hero__wrapper">
+          <div class="logo__wrapper">TRADERA</div>
+          <div class="search__wrapper">
+            <fieldset class="search__bar">
+              <input type="search" placeholder="Vad letar du efter?" />
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="search-icon"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  width="20px"
+                  height="20px"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </fieldset>
+          </div>
+          <div class="tags__wrapper"></div>
         </div>
-        <div class="tags__wrapper"></div>
-      </div>
-    </section>
+      </section>
+    </div>
+
     <!-- ADS JSON -->
     <div id="ads"></div>
     <script src="app.js"></script>
