@@ -1,0 +1,257 @@
+/* Heading */
+#main {
+
+}
+
+.clear {
+  clear: both;
+}
+#nav{
+  display: inline-block;
+  background-color: #e8e8e7;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  align-items: center;
+  transition: var(--transition);
+  padding: 1rem;
+}
+
+#nav > li {
+ display: inline-block;
+}
+
+#nav li {
+  position: relative;
+}
+
+#nav > li > a{
+  color: black;
+  text-transform: uppercase;
+  font: 11px Arial;
+  padding: 0 10px;
+	margin:20px 0;
+	padding:0 5px;
+  
+}
+
+
+/* #nav a {
+	color:#aaa;
+	padding:4px 10px;
+}
+*/
+
+#nav a:hover {
+	color:#111;
+	text-decoration:none;}
+
+
+/* Slider */
+#slider {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 25%;
+  background: url('1.gif') no-repeat center top;
+}
+
+#logo {
+  display: flex;
+  margin-left: 200px;
+  
+    
+}
+
+.logo {
+  display: flex;
+  margin-right: 200px;
+}
+.logo > div{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#logo .logo-content {
+    
+}
+
+
+.put-in-button {
+    padding: 10px 16px;
+    width: 215px;
+    background: #598b95;
+    color: #fff;
+    float: right;
+} 
+/* .but-top > p {
+    font-size: 48px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    padding: 0;
+    font-family: 'Arial';
+    color: #222;
+} */
+
+
+/* Content */
+.content-center {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.content-center > div{
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.front-page-map {
+  text-align: center;
+}
+
+.svensk-jakt-sidebar {
+  display: flex;
+  margin-left: 200px ;
+}
+.svensk-jakt-sidebar > div {
+  margin: 1px;
+  padding: 20px;
+  font-size: 12px;
+}
+/* Map */
+.side {
+  display: flex;
+  margin-left: 200px ;
+}
+.side > div {
+  margin: 1px;
+  padding: 20px;
+  font-size: 12px;
+}
+/* Search button */
+#advert-search-form {
+  background-color:grey;
+  padding: 20px;
+}
+#advert-search-form .button {
+    padding: 10px 16px;
+    width: 100px;
+    background: #598b95;
+    color: #fff;
+}
+.select {
+}
+
+/* Div "app" */
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.app-title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.0rem;
+}
+
+.animal {
+  max-width: 650px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.animal h6 {
+  margin: 0 0 6px 0;
+}
+
+.pet-photo {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.pet-name {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+
+.species {
+  font-size: 0.9rem;
+  color: #888;
+  vertical-align: middle;
+}
+
+/* DIV 3 */
+.sideCol {
+  width: 215px;
+  position: relative;
+  right: 0;
+  height: auto;
+  border: 3px solid #73AD21;
+  background-color: hotpink;
+}
+
+
+/* Fotter */
+#container {
+    background: #000;
+    padding: 10px;
+    width: auto;
+    display: flex;
+}
+#container > div {
+    margin: 1px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+h5 {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+  font-family: 'PublicoText-Bold';
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 5px;
+  padding: 0 0 2px;
+}
+
+.container-content {
+   align-items: flex-start;
+   display: flex;
+   margin: 10px 0 0;
+  /* @media only screen and (min-width: 920px)
+  #container ul li {
+    font-size: 12px;
+    line-height: 18px;
+    list-style: none; */
+  }
+
+.container-content > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.f-widget{
+  float: left;
+  margin: 0 0px 0 0;
+  width: 150px;
+}
+.f-widget .foot-ul {
+  color: #fff;
+  font-size: 11px;
+}
+
+
