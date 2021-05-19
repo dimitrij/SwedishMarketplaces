@@ -25,13 +25,14 @@ h3 {
   text-transform: uppercase;
 }
 /* ADS json */
-#ads,
-#hero__section {
+#hero__section,
+#ads {
   width: 100%;
 }
 
 /* Section Proportion */
-#nav__wrapper {
+#nav__wrapper,
+#ads__container {
   width: 70%;
   height: 10vh;
   margin: auto;
@@ -107,10 +108,12 @@ h3 {
   font-weight: 700;
   color: var(--main-bg);
 }
+
 fieldset {
   border: none;
   background-color: white;
 }
+
 .search__bar {
   display: flex;
   justify-content: center;

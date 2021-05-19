@@ -46,9 +46,9 @@ async function fetchData(configuration) {
         paragraphElement.textContent = `${item.description}...`;
 
         container.appendChild(ad);
+        ad.appendChild(imageElement);
         ad.appendChild(headingElement);
         ad.appendChild(priceElement);
-        ad.appendChild(imageElement);
         ad.appendChild(paragraphElement);
       });
     }
@@ -61,3 +61,5 @@ async function fetchData(configuration) {
 }
 
 fetchData(jsonConfiguration);
+document.getElementById("container").style.display = "grid";
+document.getElementById("container").style.gridTemplateColumns = "1fr 1fr ";

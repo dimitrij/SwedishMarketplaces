@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Ankle length jeans",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
+    "category": "clothes",
+    "price": 150,
+    "currency": "SEK"
+  },
+  {
+    "id": 2,
+    "title": "star wars tshirt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
+    "category": "clothes",
+    "price": 70,
+    "currency": "SEK"
+  },
+  {
+    "id": 3,
+    "title": "Zara leather jacket",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
+    "category": "clothes",
+    "price": 490,
+    "currency": "SEK"
+  },
+  {
+    "id": 4,
+    "title": "Chino trousers",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
+    "category": "clothes",
+    "price": 210,
+    "currency": "SEK"
+  },
+  {
+    "id": 5,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
+    "category": "clothes",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 6,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/vehicle-json.jpeg",
+    "category": "vehicles",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 7,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/vehicle-json.jpeg",
+    "category": "vehicles",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 8,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/vehicle-json.jpeg",
+    "category": "vehicles",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 9,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/vehicle-json.jpeg",
+    "category": "vehicles",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 10,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/vehicle-json.jpeg",
+    "category": "vehicles",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 11,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/electronics-json.jpeg",
+    "category": "electronics",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 12,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/electronics-json.jpeg",
+    "category": "electronics",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 13,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/electronics-json.jpeg",
+    "category": "electronics",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 14,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/electronics-json.jpeg",
+    "category": "electronics",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 15,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/electronics-json.jpeg",
+    "category": "electronics",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 16,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/games-json.jpeg",
+    "category": "games",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 17,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/games-json.jpeg",
+    "category": "games",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 18,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/games-json.jpeg",
+    "category": "games",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 19,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/games-json.jpeg",
+    "category": "games",
+    "price": 360,
+    "currency": "SEK"
+  },
+  {
+    "id": 20,
+    "title": "cotton cardigan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+    "imageUrl": "../tradera.com/resource/products/games-json.jpeg",
+    "category": "games",
+    "price": 360,
+    "currency": "SEK"
+  }
+]
