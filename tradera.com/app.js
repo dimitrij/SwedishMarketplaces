@@ -28,7 +28,7 @@ async function fetchData(configuration) {
 
     if (response.ok) {
       sortedData.forEach((item) => {
-        const ad = document.createElement("div");
+        const ad = document.createElement("a");
         ad.classList.add("ads");
 
         const headingElement = document.createElement("h2");
