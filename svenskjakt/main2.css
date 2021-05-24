@@ -1,7 +1,12 @@
 /* Heading */
-#main {
 
+#main {
+    max-width: 1045px;
+    margin: 50px 0px;
+    background-color:white;
 }
+
+
 
 .clear {
   clear: both;
@@ -57,7 +62,7 @@ body {
 /* Slider */
 #slider {
   position: relative;
-  margin-top: 46px;
+  /* margin-top: 46px; */
   padding-top: 25%;
   background: url('1.gif') no-repeat center top;
 }
@@ -72,7 +77,7 @@ body {
 }
 .logo > div{
   background-color: #f1f1f1;
-  margin: 10px;
+  margin: 35px;
   padding: 20px;
   font-size: 30px;
 }
@@ -83,6 +88,9 @@ body {
     color: #fff;
     float: right;
 } 
+.but-top {
+    margin-left: 50px;
+}
 /* .but-top > p {
     font-size: 48px;
     line-height: 50px;
@@ -149,8 +157,8 @@ body {
 
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 750px;
+ 
 }
 
 .app-title {
@@ -160,12 +168,14 @@ img {
 }
 
 .animal {
-  max-width: 650px;
+  max-width: 750px;
   padding: 20px;
-  margin: 30px auto;
+  padding-top: 0px;
+  margin: auto;
   background-color: #fff;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  
   overflow: hidden;
+  
 }
 
 .animal h6 {
@@ -173,9 +183,9 @@ img {
 }
 
 .pet-photo {
-  float: left;
-  width: 40%;
-  margin-right: 15px;
+  width: 750px;
+  margin: auto ;
+  
 }
 
 .pet-name {
@@ -189,6 +199,30 @@ img {
   color: #888;
   vertical-align: middle;
 }
+.animal2 {
+    max-width: 650px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+.animal2 h6 {
+    margin: 0 0 6px 0;
+  }
+  
+.pet-photo2 {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+  }
+  
+.pet-name2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+  }
 
 /* DIV 3 */
 .sideCol {
@@ -253,7 +287,8 @@ h5 {
 .Adress > div {
   margin: 1px;
   padding: 20px;
-  font-size: 12px;
+  font-size: 30px;
+
 }
 
 
@@ -272,6 +307,11 @@ h5 {
 .button1 {
   width: 200px;
 }
+.button2 {
+    margin: 5px 3px;
+    height: 47px;
+    width: 125px; 
+}
 
 .info {
   display: flex;
@@ -281,4 +321,9 @@ h5 {
   margin: 1px;
   padding: 20px;
   font-size: 12px;
+  padding-top: inherit;
+}
+
+.info2 {
+    font-size: 16px;
 }
