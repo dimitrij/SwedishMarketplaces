@@ -28,7 +28,10 @@ async function fetchData(configuration) {
 
     if (response.ok) {
       sortedData.forEach((item) => {
-        const ad = document.createElement("a");
+        const linkElement = document.createElement("a");
+        linkElement.setAttribute("href", item.title);
+
+        const ad = document.createElement("div");
         ad.classList.add("ads");
 
         const headingElement = document.createElement("h2");
@@ -45,7 +48,8 @@ async function fetchData(configuration) {
         item.description = item.description.substring(0, 300);
         paragraphElement.textContent = `${item.description}...`; */
 
-        container.appendChild(ad);
+        container.appendChild(linkElement);
+        linkElement.appendChild(ad);
         ad.appendChild(imageElement);
         ad.appendChild(headingElement);
         ad.appendChild(priceElement);
