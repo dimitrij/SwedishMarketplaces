@@ -40,16 +40,16 @@ async function fetchData(configuration) {
         const imageElement = document.createElement("img");
         imageElement.setAttribute("src", item.imageUrl);
         imageElement.setAttribute("alt", item.title);
-
+        /* 
         const paragraphElement = document.createElement("p");
         item.description = item.description.substring(0, 300);
-        paragraphElement.textContent = `${item.description}...`;
+        paragraphElement.textContent = `${item.description}...`; */
 
         container.appendChild(ad);
         ad.appendChild(imageElement);
         ad.appendChild(headingElement);
         ad.appendChild(priceElement);
-        ad.appendChild(paragraphElement);
+        /* ad.appendChild(paragraphElement); */
       });
     }
   } catch (error) {
