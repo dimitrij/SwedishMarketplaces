@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Ankle length jeans",
+    "title": "ankle length jeans",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
     "category": "clothes",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "title": "Star wars tshirt",
+    "title": "star Wars tshirt",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
     "category": "clothes",

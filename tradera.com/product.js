@@ -17,23 +17,17 @@ async function fetchData(configuration) {
 
     console.log("data", data);
 
-    const sortedData = data.sort((a, b) => {
-      // Here is where you can sort
-      const lowercaseTitleA = a.title.toLowerCase();
-      const lowercaseTitleB = b.title.toLowerCase();
-      if (lowercaseTitleA < lowercaseTitleB) {
-        return -1;
-      } else if (lowercaseTitleA > lowercaseTitleB) {
-        return 1;
-      }
-      return 0;
+    // Navigate to Single Product Page!!
+    const filteredData = data.filter((item) => {
+      const newPath = window.location.pathname
+        .replace("/tradera.com/", "")
+        .replace(".html", "");
+
+      return item.id === Number(newPath);
     });
 
     if (response.ok) {
-      sortedData.forEach((item) => {
-        const linkElement = document.createElement("a");
-        linkElement.setAttribute("href", `${item.id}.html`);
-
+      filteredData.forEach((item) => {
         const ad = document.createElement("div");
         ad.classList.add("ads");
 
@@ -47,11 +41,15 @@ async function fetchData(configuration) {
         imageElement.setAttribute("src", item.imageUrl);
         imageElement.setAttribute("alt", item.title);
 
-        container.appendChild(linkElement);
-        linkElement.appendChild(ad);
+        const paragraphElement = document.createElement("p");
+        item.description = item.description.substring(0, 300);
+        paragraphElement.textContent = `${item.description}...`;
+
+        container.appendChild(ad);
         ad.appendChild(imageElement);
         ad.appendChild(headingElement);
         ad.appendChild(priceElement);
+        ad.appendChild(paragraphElement);
       });
     }
   } catch (error) {
