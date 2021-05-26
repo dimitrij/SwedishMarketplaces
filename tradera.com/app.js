@@ -37,7 +37,7 @@ async function fetchData(configuration) {
         const ad = document.createElement("div");
         ad.classList.add("ads");
 
-        const headingElement = document.createElement("h2");
+        const headingElement = document.createElement("h3");
         headingElement.textContent = item.title;
 
         const priceElement = document.createElement("p");
