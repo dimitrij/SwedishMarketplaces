@@ -29,7 +29,7 @@ async function fetchData(configuration) {
     if (response.ok) {
       sortedData.forEach((item) => {
         const linkElement = document.createElement("a");
-        linkElement.setAttribute("href", item.title);
+        linkElement.setAttribute("href", `${item.id}.html`);
 
         const ad = document.createElement("div");
         ad.classList.add("ads");

@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "title": "star wars tshirt",
+    "title": "Star wars tshirt",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
     "category": "clothes",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "title": "Zara leather jacket",
+    "title": "Leather jacket",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "imageUrl": "../tradera.com/resource/products/clothes-json.jpeg",
     "category": "clothes",
